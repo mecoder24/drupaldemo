@@ -1,0 +1,17 @@
+name: mytheme
+decription: My First Custom theme
+type: theme
+core: 8.x
+libraries:
+    - mytheme/global-css
+    - mytheme/global-js
+    - mytheme/global-styling
+stylesheets-remove:
+    - "css_tJyL_L0kdv1dLcjo18JxoDEYjsVso4bmdnxpDRdLN7w.css"
+regions:
+    headline: headline
+    header: header
+    content: content
+    sidebar: sidebar
+    footer: footer
+    
